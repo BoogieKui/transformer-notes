@@ -1,0 +1,9 @@
+http://neuralnetworksanddeeplearning.com/index.html
+https://d2l.ai/?utm_source=chatgpt.com
+https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1254/?utm_source=chatgpt.com
+https://www.3blue1brown.com/?topic=neural-networks
+https://jalammar.github.io/illustrated-transformer/?utm_source=chatgpt.com
+https://deeplearningwithpython.io/chapters/
+https://www.youtube.com/@umarjamilai
+https://cs336.stanford.edu
+https://cs229.stanford.edu
