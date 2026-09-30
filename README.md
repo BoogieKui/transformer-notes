@@ -15,8 +15,8 @@
 | 3 | Attention 机制 | ✅ 完成 | [01-attention.md](notes/03-attention-transformer/01-attention.md) |
 | 3 | Self-Attention & Transformer | ✅ 完成 | [02-self-attention.md](notes/03-attention-transformer/02-self-attention.md) 等 4 篇 |
 | 3 | Illustrated Transformer（图解） | ✅ 完成 | [06-illustrated-transformer.md](notes/03-attention-transformer/06-illustrated-transformer.md) |
-| 4 | Karpathy nanoGPT（手写实现） | 🔄 进行中 | —（参考 CS336、Umar Jamil） |
-| 5 | BERT / GPT 预训练 | ⬜ 待开始 | — |
+| 4 | Karpathy nanoGPT（手写实现） | ✅ 完成 | [01-mini-gpt-reading.md](notes/04-karpathy-nanogpt/01-mini-gpt-reading.md) 等 5 篇 |
+| 5 | BERT / GPT 预训练 | 🔄 进行中 | [01-why-pretraining.md](notes/05-pretraining/01-why-pretraining.md)、[02-bert.md](notes/05-pretraining/02-bert.md)、[03-gpt-in-context.md](notes/05-pretraining/03-gpt-in-context.md) |
 | 6 | 《Attention Is All You Need》 | ⬜ 待开始 | — |
 
 ## 资源

@@ -56,7 +56,7 @@ print(f"数据长度 = {len(data)} 个 token，理论初始 loss ≈ ln({vocab_s
 # 1. 超参数
 # =====================================================================
 # 刻意让每个数字在全文件里只用一次，这样读代码时"看到数字就知道是哪个维度"：
-#   B = batch_size = 32   T = block_size = 50   C = n_embd = 96   V = vocab_size = 98
+#   B = batch_size = 32   T = block_size = 50   C = n_embd = 96   V = vocab_size = 87
 #   nh = n_head = 6       hd = head_dim = 16    L = n_layer = 3
 # （早期版本里 n_embd 和 block_size 都是 64，导致 (B,T,C) 里 T 和 C 分不清，已改开。）
 n_embd = 96        # C：每个 token 的隐向量维度
