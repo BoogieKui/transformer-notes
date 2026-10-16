@@ -12,7 +12,9 @@ mini_gpt_real.py —— 同一台 GPT，把内置的 1 KB 英文换成真语料
 设计原则（"设计是被挣来的"）：每个零件出现，都是因为上一个零件不够用。
 所以这个文件从上到下按「问题 → 解法」铺开，可以顺着读。
 
-还没做（留作下一步）：BPE、dropout、weight tying、更大的模型。
+还没做（留作下一步）：BPE、dropout、更大的模型。
+weight tying 不做：这台机器词表只有 35 行，共享一次省不到 1%，理由见
+notes/03-attention-transformer/04-transformer-layer.md §16.5。
 """
 
 import math

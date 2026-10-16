@@ -16,8 +16,8 @@
 | 3 | Self-Attention & Transformer | ✅ 完成 | [02-self-attention.md](notes/03-attention-transformer/02-self-attention.md) 等 4 篇 |
 | 3 | Illustrated Transformer（图解） | ✅ 完成 | [06-illustrated-transformer.md](notes/03-attention-transformer/06-illustrated-transformer.md) |
 | 4 | Karpathy nanoGPT（手写实现） | ✅ 完成 | [01-mini-gpt-reading.md](notes/04-karpathy-nanogpt/01-mini-gpt-reading.md) 等 5 篇 |
-| 5 | BERT / GPT 预训练 | 🔄 进行中 | [01-why-pretraining.md](notes/05-pretraining/01-why-pretraining.md)、[02-bert.md](notes/05-pretraining/02-bert.md)、[03-gpt-in-context.md](notes/05-pretraining/03-gpt-in-context.md) |
-| 6 | 《Attention Is All You Need》 | ⬜ 待开始 | — |
+| 5 | BERT / GPT 预训练 | ✅ 完成 | [01-why-pretraining.md](notes/05-pretraining/01-why-pretraining.md)、[02-bert.md](notes/05-pretraining/02-bert.md)、[03-gpt-in-context.md](notes/05-pretraining/03-gpt-in-context.md)、[04-why-decoder-only.md](notes/05-pretraining/04-why-decoder-only.md) |
+| 6 | LLM 关键概念 | ✅ 完成 | [01-llm-concepts.md](notes/06-llm-concepts/01-llm-concepts.md)（一篇概览：从一台续写机器开始 → 规模定律 / 后训练 / 推理 / 效率 / 上下文 / RAG 与 Agent / 多模态 / 量化与蒸馏 / 评估） |
 
 ## 资源
 
@@ -41,6 +41,6 @@ notes/              # 学习笔记
   03-attention-transformer/  # Attention & Transformer
   04-karpathy-nanogpt/      # 手写 GPT
   05-pretraining/   # BERT/GPT 预训练
-  06-paper-reading/ # 论文阅读
+  06-llm-concepts/  # LLM 关键概念
 code/               # 代码实现
 ```

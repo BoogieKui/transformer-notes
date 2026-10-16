@@ -10,7 +10,9 @@ mini_gpt.py —— 最小可运行的 GPT（阶段 4 的第一步）
 它对应笔记的哪一节。
 
 "换真语料"这一步已经做了，见 code/mini_gpt_real.py（改动只有"文本从哪来"）。
-还没做（留作下一步）：BPE、dropout、weight tying、更大的模型。
+还没做（留作下一步）：BPE、dropout、更大的模型。
+weight tying 不做：这台机器词表只有 35 行，共享一次省不到 1%，理由见
+notes/03-attention-transformer/04-transformer-layer.md §16.5。
 """
 
 import math

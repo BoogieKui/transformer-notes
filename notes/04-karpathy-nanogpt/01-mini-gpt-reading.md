@@ -1311,4 +1311,7 @@ print(decode(model.generate(context, max_new_tokens=200, temperature=0.8)[0].tol
 - 每个零件都是"上一个零件不够用"逼出来的——这就是「设计是被挣来的」。
 
 **下一步：换真实语料**（已做，见 `03-real-data.md`——用的是 TinyStories，不是 `input.txt`）。
-代码里还留着没做的：BPE 分词、dropout、weight tying（嵌入表和输出头共享权重）、更大的模型。等你把这一版吃透，再逐个加。
+
+代码里还留着没做的：**BPE 分词**（换真实语料时已补上，见 `04-bpe.md`）、**dropout**、**weight tying**（嵌入表和输出头共享权重）、更大的模型。
+
+> 关于 **weight tying**：**不是这台机器上该做的事，所以到此为止。** 字符级词表只有 35 行，共享一次省 3,360 个参数、占总量 1%（§5.4 那张表里 `wte` 和 `lm_head` 并排放着，一眼可见）——**这笔账在这台机器上不成立**。它真正值钱的地方是 $V$ 五万量级的模型：那里两张表能占掉全模型将近一半的参数。完整推导见 `../03-attention-transformer/04-transformer-layer.md` §16.5。

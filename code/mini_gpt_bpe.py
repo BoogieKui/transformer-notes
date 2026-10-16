@@ -16,7 +16,8 @@ mini_gpt_bpe.py —— 同一台 GPT、同一份语料，只把分词器从字�
 设计原则（"设计是被挣来的"）：每个零件出现，都是因为上一个零件不够用。
 所以这个文件从上到下按「问题 → 解法」铺开，可以顺着读。
 
-还没做（留作下一步）：dropout、weight tying、更大的模型。
+还没做（留作下一步）：dropout、更大的模型。
+weight tying 不做：理由见 notes/03-attention-transformer/04-transformer-layer.md §16.5。
 """
 
 import math
